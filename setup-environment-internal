@@ -146,7 +146,7 @@ fi
 
 cat <<EOF
 
-Welcome to Ångström ( A Yocto Project Compatible Distribution )
+Welcome to Cambrionix Linux
 
 For more information about OpenEmbedded see their website:
     http://www.openembedded.org/
