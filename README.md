@@ -1,10 +1,10 @@
-angstrom-manifest
-=================
+camol-manifest
+==============
 
-Ångström Repo manifest repository
+Cambrionix Linux Repo manifest repository
 
-These are the setup scripts for the Ångström buildsystem. If you want to (re)build packages or images for Ångström, this is the thing to use.
-The Ångström buildsystem is using various components from the Yocto Project, most importantly the Openembedded buildsystem, the bitbake task executor and various application and BSP layers.
+These are the setup scripts for the Cambrionix Linux buildsystem. If you want to (re)build packages or images for Cambrionix Linux, this is the thing to use.
+The Cambrionix Linux buildsystem is using various components from the Yocto Project, most importantly the Openembedded buildsystem, the bitbake task executor and various application and BSP layers.
 
 To configure the scripts and download the build metadata, do:
 
@@ -16,11 +16,11 @@ To configure the scripts and download the build metadata, do:
 
 Run repo init to bring down the latest version of Repo with all its most recent bug fixes. You must specify a URL for the manifest, which specifies where the various repositories included in the Android source will be placed within your working directory.
 
-	$ repo init -u git://github.com/Angstrom-distribution/angstrom-manifest
+	$ repo init -u git://github.com/cbrx-fw/camol-manifest
 
 To check out a branch other than "master", specify it with -b:
 
-	$ repo init -u git://github.com/Angstrom-distribution/angstrom-manifest -b angstrom-v2015.06-yocto1.8
+	$ repo init -u git://github.com/cbrx-fw/camol-manifest -b camol-v2015.06-yocto1.8
 
 When prompted, configure Repo with your real name and email address.
 
@@ -46,7 +46,7 @@ Setup Environment
 	$ . setup-environment
 
 	$ MACHINE=<machine> bitbake <image>
-	e.g. MACHINE=beaglebone bitbake systemd-image
+	e.g. MACHINE=whippet bitbake systemd-image
 
 Creating a local topic branch
 -----------------------------
@@ -54,7 +54,7 @@ Creating a local topic branch
 Setup will already create a branch called $USER/work
 but if you need to create local branches for all repos which then can be done e.g.
 
-	$ ~/bin/repo start myangstrom --all
+	$ ~/bin/repo start mycamol --all
 
 Where 'myangstrom' is the name of branch you choose
 
@@ -73,14 +73,8 @@ Rease your local committed changes
 
 If you find any bugs please report them here
 
-https://github.com/Angstrom-distribution/angstrom-manifest/issues
+https://github.com/cbrx-fw/camol-manifest/issues
 
 If you have questions or feedback, please subscribe to
 
-http://lists.linuxtogo.org/cgi-bin/mailman/listinfo/angstrom-distro-devel
 
-Ångström Distribution maintainers
----------------------------------
-
-* Koen Kooi <mailto:koen@dominion.thruhere.net>
-* Khem Raj  <mailto:raj.khem@gmail.com>
