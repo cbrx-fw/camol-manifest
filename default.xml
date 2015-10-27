@@ -46,7 +46,7 @@
   <project remote="github" revision="camol3" name="cbrx-fw/meta-camol" path="sources/meta-camol">
       <copyfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
-  <project remote="bitbucket" revision="camol-3.14" name="cbrx-fw/meta-cbrx" path="sources/meta-cbrx"/>
+  <project remote="bitbucket" revision="camol3" name="cbrx-fw/meta-cbrx" path="sources/meta-cbrx"/>
   <project remote="github" name="Angstrom-distribution/meta-angstrom" path="sources/meta-angstrom">
       <copyfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
