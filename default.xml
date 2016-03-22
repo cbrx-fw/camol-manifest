@@ -15,8 +15,6 @@
   <project remote="oe"     name="meta-handheld" path="sources/meta-handheld"/>
   <project remote="oe"     name="meta-opie" path="sources/meta-opie"/>
 
-  <project remote="bitbucket" name="gen_dev_sst/meta-kde4" path="sources/meta-kde4"/>
-
   <project remote="github" name="schnitzeltony/meta-gumstix-community" path="sources/meta-gumstix-community"/>
   <project remote="github" name="openembedded/openembedded-core" path="sources/openembedded-core"/>
   <project remote="github" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
