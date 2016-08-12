@@ -31,15 +31,14 @@
       <copyfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
 
-  <project remote="yocto" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
-  <project remote="yocto" name="meta-intel" path="sources/meta-intel"/>
-  <project remote="yocto" name="meta-xilinx" path="sources/meta-xilinx"/>
-  <project remote="yocto" name="meta-ti" path="sources/meta-ti"/>
-  <project remote="yocto" name="meta-mono" path="sources/meta-mono"/>
-  <project remote="yocto" name="meta-minnow" path="sources/meta-minnow"/>
-  <project remote="yocto" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
-  <project remote="yocto" name="meta-java" path="sources/meta-java"/>
-  <project remote="yocto" name="meta-maker" path="sources/meta-maker"/>
-  <project remote="yocto" name="meta-virtualization" path="sources/meta-virtualization"/>
+  <project remote="yocto" name="meta-fsl-arm" path="layers/meta-fsl-arm"/>
+  <project remote="yocto" name="meta-intel" path="layers/meta-intel"/>
+  <project remote="yocto" name="meta-xilinx" path="layers/meta-xilinx"/>
+  <project remote="yocto" name="meta-ti" path="layers/meta-ti"/>
+  <project remote="yocto" name="meta-mono" path="layers/meta-mono"/>
+  <project remote="yocto" name="meta-raspberrypi" path="layers/meta-raspberrypi"/>
+  <project remote="yocto" name="meta-java" path="layers/meta-java"/>
+  <project remote="yocto" name="meta-maker" path="layers/meta-maker"/>
+  <project remote="yocto" name="meta-virtualization" path="layers/meta-virtualization"/>
 
 </manifest>
