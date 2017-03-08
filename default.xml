@@ -40,5 +40,6 @@
   <project remote="yocto" name="meta-java" path="layers/meta-java"/>
   <project remote="yocto" name="meta-maker" path="layers/meta-maker"/>
   <project remote="yocto" name="meta-virtualization" path="layers/meta-virtualization"/>
+  <project remote="yocto" name="meta-gplv2" path="layers/meta-gplv2"/>
 
 </manifest>
