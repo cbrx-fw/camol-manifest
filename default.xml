@@ -37,10 +37,8 @@
   <project remote="yocto" revision="sumo" name="meta-intel" path="layers/meta-intel"/>
   <project remote="yocto" name="meta-xilinx" path="layers/meta-xilinx"/>
   <project remote="yocto" name="meta-ti" path="layers/meta-ti"/>
-  <project remote="yocto" name="meta-mono" path="layers/meta-mono"/>
   <project remote="yocto" revision="sumo" name="meta-raspberrypi" path="layers/meta-raspberrypi"/>
   <project remote="yocto" revision="sumo" name="meta-java" path="layers/meta-java"/>
-  <project remote="yocto" revision="sumo" name="meta-maker" path="layers/meta-maker"/>
   <project remote="yocto" revision="sumo" name="meta-virtualization" path="layers/meta-virtualization"/>
   <project remote="yocto" revision="sumo" name="meta-gplv2" path="layers/meta-gplv2"/>
 
