@@ -20,7 +20,6 @@
   <project remote="github" revision="sumo" name="openembedded/meta-openembedded" path="layers/meta-openembedded"/>
   <project remote="github" revision="1.38" name="openembedded/bitbake" path="bitbake"/>
   <project remote="github" name="rehsack/meta-cpan" path="layers/meta-cpan"/>
-  <project remote="github" revision="sumo" name="meta-qt5/meta-qt5" path="layers/meta-qt5"/>
   <project remote="github" revision="camol3" name="cbrx-fw/meta-camol" path="layers/meta-camol">
       <copyfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
