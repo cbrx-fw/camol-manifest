@@ -21,7 +21,7 @@
   <project remote="github" revision="1.38" name="openembedded/bitbake" path="bitbake"/>
   <project remote="github" name="rehsack/meta-cpan" path="layers/meta-cpan"/>
   <project remote="github" revision="camol3" name="cbrx-fw/meta-camol" path="layers/meta-camol">
-      <copyfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
+      <copyfile dest="setup-environment" src="setup-environment-internal"/>
   </project>
   <project remote="bitbucket" revision="camol3" name="cbrx-fw/meta-cbrx" path="layers/meta-cbrx"/>
 
